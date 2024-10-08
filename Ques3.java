@@ -27,9 +27,10 @@ class operation
             
         }
         System.out.print("");
-        for (int i = 0; i < id; i++) {
-    reversebinary[i] = binary[id - 1 - i]; // Reverse assignment
-}
+        for (int i = 0; i < id; i++)
+        {
+            reversebinary[i] = binary[id - 1 - i]; // Reverse assignment
+        }
     compliment(reversebinary,id);
 
     }
@@ -71,11 +72,7 @@ class operation
             System.out.print(reversebinary[i]);
         }
         System.out.println();
-
     }
-    
-
-
 }
 
 class Ques3 extends operation
